@@ -65,7 +65,7 @@ client.on('message', msg => {
 
 client.on('guildMemberAdd', member => {
     const channel = member.guild.systemChannel;
-    channel.send(`Welcome to the server, traveler ${member}!`);
+    channel.send(`Welcome to the server ${member}!`);
     channel.send(make_embed(member));
     console.log(`Guild member joined, ${member.user.tag}`);
 });
