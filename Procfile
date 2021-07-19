@@ -1,1 +1,1 @@
-worker: node amber.js
+worker: node ricardo.js
