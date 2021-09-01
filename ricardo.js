@@ -2,6 +2,7 @@
 
 // Declarations for classes
 const Discord = require('discord.js');
+require('dotenv').config();
 const client = new Discord.Client({ ws: { intents: new Discord.Intents(Discord.Intents.ALL) }});
 
 // Declaring variables:
